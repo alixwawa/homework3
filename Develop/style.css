@@ -14,41 +14,20 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: black;
-  
-}
-
-form {
-
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.form {
-
-  display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 1rem;
-  column-gap: 3rem;
+  background-color: #f9fbfd;
 }
 
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
 }
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: white;
+  color: hsl(206, 17%, 28%);
 }
 
 .card {
@@ -155,37 +134,4 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
-}
-
-h2 {
-
-  text-align: center;
-}
-
-label {
-  font-weight: bold;
-}
-
-.password-display {
-  background-color: white;
-  color: black;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  word-break: break-all;
-  border-radius: .5rem;
-
-
-}
-
-.number-input {
-
-  width: 2.5rem
-
-}
-
-.character-amount-container {
-
-  display:flex;
-  align-items: center;
 }

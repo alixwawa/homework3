@@ -30,10 +30,6 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
-
-when the button is clicked
-a series of prompts for the password should appear
-select which criteria to include in the password
 ```
 
 The following image demonstrates the application functionality:
